@@ -1,0 +1,12 @@
+En el servidor se encuentra corriendo docker engine por lo que el proyecto consta de un dockerfile para crear el contenedor 
+
+para generar el contenedor debe dirigirse a /target/  y ejecutar el comando docker build -t myapi:v1 .
+
+posteriormente debe ejecutar el comando docker run -p 1013:1013  myapi:v1 
+
+
+
+y ya tendria corriendo el api expuesta por la ip publica  para consultar zonas por municipio
+
+
+
